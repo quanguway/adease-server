@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "icons",
+  "info": {
+    "singularName": "icon",
+    "pluralName": "icons",
+    "displayName": "Icon"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "path": {
+      "type": "string"
+    },
+    "alt": {
+      "type": "string"
+    },
+    "navbar": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::navbar.navbar",
+      "inversedBy": "icon"
+    }
+  }
+}
