@@ -1,5 +1,5 @@
 export default ({ env }) => ({
-  host: env("HOST", "https://adease-server-lf74kthi5-quanguway.vercel.app"),
+  host: env("HOST", "0.0.0.0"),
   port: env.int("PORT", 1337),
   app: {
     keys: env.array("APP_KEYS"),
