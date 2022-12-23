@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "banner_introduces",
+  "info": {
+    "singularName": "banner-introduce",
+    "pluralName": "banner-introduces",
+    "displayName": "BannerIntroduce"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "reverse": {
+      "type": "boolean"
+    },
+    "shadow": {
+      "type": "text"
+    },
+    "button": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "bg": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "banner_sliders",
+  "info": {
+    "singularName": "banner-slider",
+    "pluralName": "banner-sliders",
+    "displayName": "BannerSlider"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "avatar": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "author": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    }
+  }
+}

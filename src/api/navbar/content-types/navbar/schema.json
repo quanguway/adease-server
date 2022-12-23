@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navbars",
+  "info": {
+    "singularName": "navbar",
+    "pluralName": "navbars",
+    "displayName": "Navbar",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "dropdown": {
+      "type": "boolean"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": ["link", "tool"]
+    },
+    "icon": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::icon.icon",
+      "inversedBy": "navbar"
+    }
+  }
+}
